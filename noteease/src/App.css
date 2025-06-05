@@ -1,10 +1,52 @@
 :root {
-  --base-light: #00ffff;
-  --base-dark: #00008b;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
+  --base-primary: #4A90E2;
+  --base-accent: #FFD700;
 }
+
+/* Light Theme */
+.theme-light {
+  --base-bg: #f5f7fa;
+  --base-surface: #fff;
+  --base-sidebar: #e8f1fb;
+  --primary: #4A90E2;
+  --accent: #FFD700;
+  --text-color: #222;
+  --text-light: #555;
+  --border-color: #e0e0e0;
+  --note-bg: #fff;
+  --delete: #e57373;
+  --input-bg: #f5fbff;
+  --input-border: #e0e0e0;
+  --surface-shadow: 0 2px 8px 0 rgba(36, 94, 163, 0.06);
+}
+
+/* Dark Theme */
+.theme-dark {
+  --base-bg: #17181c;
+  --base-surface: #23242a;
+  --base-sidebar: #191a21;
+  --primary: #72aefc;
+  --accent: #ffe066;
+  --text-color: #f7f7fa;
+  --text-light: #bdbbc7;
+  --border-color: #35374b;
+  --note-bg: #242630;
+  --delete: #d16d6d;
+  --input-bg: #21212a;
+  --input-border: #35374b;
+  --surface-shadow: 0 2px 16px 0 rgba(114, 174, 252, 0.08);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  background-color: var(--base-bg);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ... (rest unchanged) ... */
 
 body {
   margin: 0;
